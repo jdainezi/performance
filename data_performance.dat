@@ -1,0 +1,75 @@
+#################################################################
+# Data to generate a basic performance analysis
+#################################################################
+
+#Aircraft name
+ac_name: cruise - PW 4098
+
+#Aircraft Weight (MTOW)
+W: 2.8073E6 N
+
+#Wing area
+S: 539 m^2
+
+#Fuselage diameter at wing root
+df: 5.2 m
+
+#Wing span
+b: 65.5 m
+
+#Mean aerodynamic chord
+c: 9.19 m
+
+#Sweep angle (1/4 c) in Deg:
+sweep: 25.0
+
+#Takeoff AoA in Deg:
+theta: 12.0
+
+#Aircraft maximum lift coefficient (can be a list for different conditions)
+cl_max: 1.5 2.3
+
+#Positive structural limit load factor
+nlim: 2.5
+
+#Maximum engine power(propeller in W or HP) or thrust(jet in N or lbs) at sea level
+P0_eng: 872000 N
+
+#Specific fuel consuption
+sfc: 1.39e-4
+
+#Propulsion type (propeller, ramjet, turbojet, turbofan)
+propulsion: turbofan
+
+#Maximum Mach number for plotting range
+M: 1.0
+
+#Maximum altitude for plotting range
+h: 18000 m
+
+#Reference altitude for some plots
+h_ref: 30000 ft
+
+#Maximum velocity for plotting range
+V: 300 m/s
+
+#Maneuvre velocity to plot turning parameters
+VA: 100 m/s
+
+#Cruise velocity
+Vcruise: 240 m/s
+
+#Drag polar cd0 parameter (for the same conditions specified for cl_max)
+cd0: 0.02 0.038
+
+#Fuel weight
+fuel_W: 9.52E5 N
+
+#Propeller efficiency:
+eta_p: 0.85
+
+#Supercharger (yes=1, no=0)
+supercharger: 0
+
+#Output format ('SI' or 'imperial')
+output: SI

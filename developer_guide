@@ -1,0 +1,5 @@
+Implementar mudança de consumo de combustível com altitude
+Melhorar mudança de empuxo/tração com altitude, principalmente para turbofan.
+Acrescentar formula para mudar eficiência propulsiva com velocidade e altitude.
+Encontrar erros na parte de subida e curva.
+
